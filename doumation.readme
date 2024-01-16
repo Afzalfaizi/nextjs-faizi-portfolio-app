@@ -1,0 +1,72 @@
+Project Title: Afzal Faizi's Portfolio
+Introduction
+This project is a personal portfolio website for Afzal Faizi, a full stack web developer. The website showcases Afzal's skills, projects, and contact information.
+
+Getting Started
+To get started with the project, first clone the repository to your local machine:
+
+Copy code
+git clone https://github.com/Afzalfaizi/my-portfolio-app.git
+Next, navigate to the project directory and install the dependencies:
+
+Copy code
+cd my-portfolio-app
+npm install
+# or
+yarn install
+To start the development server, run:
+
+Copy code
+npm run dev
+# or
+yarn dev
+The website will be available at http://localhost:3000.
+
+Project Structure
+The project follows the standard Next.js project structure. Here are some notable directories and files:
+
+components: Contains reusable React components used throughout the application.
+public: Contains static assets such as images and fonts.
+pages: Contains the Next.js pages.
+styles: Contains global CSS styles.
+tsconfig.json: TypeScript configuration file.
+next.config.js: Next.js configuration file.
+postcss.config.js: PostCSS configuration file.
+tailwind.config.ts: Tailwind CSS configuration file.
+Components
+The following components are used in the project:
+
+HeroSection: The hero section of the homepage.
+AboutSection: The about section of the homepage.
+ProjectsSection: The projects section of the homepage.
+EmailSection: The email section of the homepage.
+Navbar: The navigation bar of the website.
+Footer: The footer of the website.
+NavLink: A link component used in the navigation bar.
+ProjectCard: A card component used to display project information.
+ProjectTag: A tag component used to filter projects by technology.
+Pages
+The following pages are included in the project:
+
+index.tsx: The homepage.
+Styles
+The project uses Tailwind CSS for styling. The global CSS styles are defined in styles/globals.css.
+
+Configuration
+The project uses TypeScript for type checking and Next.js for server-side rendering. The following configuration files are used:
+
+tsconfig.json: TypeScript configuration file.
+next.config.js: Next.js configuration file.
+postcss.config.js: PostCSS configuration file.
+tailwind.config.ts: Tailwind CSS configuration file.
+Deployment
+The project can be deployed to Vercel or any other hosting provider that supports Next.js.
+
+Conclusion
+This project is a personal portfolio website for Afzal Faizi. It showcases Afzal's skills, projects, and contact information. The project uses Next.js, TypeScript, Tailwind CSS, and React.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
